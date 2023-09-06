@@ -1,0 +1,161 @@
+/*address.html*/
+/*
+.address_container {
+    width: 100%;
+    
+}*/
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+  }
+
+#main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    order: 1;
+}
+
+.post_form_container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.price_name{
+    /*position: absolute;*/
+    /*width:max-content;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 5px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.address_name {
+    /*position: absolute;*/
+    /*width:max-content;*/
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.address_input {
+    border: none;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+
+}
+
+.address_button {
+    background-color: white;
+    border: 1px solid #666;
+    border-radius: 7px;
+    padding: 8px 2px;
+    font-size: 5px;
+    font-weight: bold;
+}
+
+.address_b {
+    display: flex;
+}
+
+.submit_btn {
+    font-size: 20px;
+	font-weight: bold;
+    width: 80%;
+	text-decoration: none;
+	margin: auto;
+	background: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 10em;
+	padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 20px;
+}
+
+
+.icon1{
+    width: 32px;
+    height: 40px;
+}
+
+.back_button {
+	margin-top: 4px;
+	margin-left: 10px;
+}
+
+.page_name {
+	color: #000000;
+	font-weight: bold;
+	margin-top: 2px;
+	font-size: 15px;
+}
+.home_button {
+    color : #000000;
+	margin-top: 4px;
+	margin-right: 10px;
+    padding: 4px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+.last_price{
+    margin-top : 40px;
+    margin-bottom : 20px;
+    text-align: right;
+}
+
+.last1{
+    font-size: 12px;
+}
+
+.last2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.last{
+    font-size: 10px;
+}
+
+/*complete.html*/
+.complete_image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items:center;
+    margin-left: 45px;
+}
+
+.complete_text {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.complete_a {
+    padding: 120px 40px;
+    text-align: center;
+}

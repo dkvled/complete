@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>WavingFlag</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'sale2.css' %}">
+    {% comment %} <link rel="stylesheet" href="sale2.css"> {% endcomment %}
+    <link rel="shortcut icon" href="imgs/instagram.png">
+</head>
+
+<body>
+    <section id="container">
+      <form method = "post" style="height:100px;">
+        {% csrf_token %}
+        <div id="main_container">
+          <div class="post_form_container">
+
+              <div class="address_container">
+                <div class="address_name">주문 완료</div>
+                <div class="complete_a">
+                  <img class = "complete_image" src = "https://i.ibb.co/2Y1r2HV/icon.png">
+                  <div class="complete_text">문자 메세지로</div>
+                  <div class="complete_text">결제와 배송 정보를 확인하세요!</div>
+                  
+                </div>
+                
+              </div>
+
+              <div style="height:100px; text-align: center;" >  
+
+              <input class="submit_btn" type="submit" value="상품 둘러보기" name="form1">
+            </div>
+            
+                  <input type="hidden" id="sample6_name" placeholder="받는 분" required><br>
+                  <input type="hidden" id="sample6_phone"  placeholder="연락처" required><br>
+                  <input type="hidden" id="sample6_postcode" placeholder="우편번호" required>
+                  <input type="hidden" id="sample6_address" placeholder="주소" required><br>
+                  <input type="hidden" id="sample6_detailAddress"  placeholder="상세주소" required><br>
+                  <input type="hidden" id="sample6_extraAddress" placeholder="참고항목" required>
+
+          </div>
+        </div>
+      </form>
+      </section>
+</body>
+</html>
